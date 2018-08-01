@@ -23,22 +23,26 @@ a {
 
 .content {
     position: absolute;
-    top:120px;
-    left:180px;
+    top:130px;
+    left:190px;
     z-index: 60;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
+}
+
+a.highlight {
+    color: #ac5500;
 }
 
 .highlight {
     color: #444444;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 110%;
+    font-family: sans-serif;
 }
 
 #main {
     font-size: 130%;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 #main_layer {

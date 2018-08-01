@@ -1,4 +1,4 @@
-var bgs = new Array("SiteImages/treeback.jpg", "SiteImages/surfback.jpg", "SiteImages/lakeback.jpg", "SiteImages/oakleyback.jpg", "SiteImages/sunback.jpg");
+var bgs = new Array("SiteImages/treeback.jpg"); //, "SiteImages/surfback.jpg", "SiteImages/lakeback.jpg", "SiteImages/oakleyback.jpg", "SiteImages/sunback.jpg");
 var lastbg=-1;
 var curpage="icon1";
 var letters = new Array('w','h','a','t','t','h','e','f','a','r','k','?');
