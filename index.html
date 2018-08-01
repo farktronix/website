@@ -1,0 +1,191 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="style.css">
+<script language="javascript" src="main.js"></script>
+<title>whatthefark?</title>
+</head>
+
+<body onload="setupBarCode();randPic()">
+
+</div>
+<div id="main_layer">
+    <div id="main_picture">
+        <img src="" id="back_img" width="100%" height="100%">
+    </div>
+    <div id="main" class="content" style="display:inline">
+        My name is Jacob Farkas.<br>
+        My current job is <span class="highlight"><a href="https://instagram.com/farktronix">full time dad</a></span>.<br>
+        Before that I worked at <span class="highlight">Apple</span> on <span class="highlight"><a href="https://developer.apple.com/icloud/cloudkit/">CloudKit</a></span>.<br>
+        I enjoy <span class="highlight">cooking</span>, <span class="highlight">playing hockey</span>, and <span class="highlight"><a href="https://github.com/farktronix">writing code</a></span>.<br>
+        I built a <span class="highlight">satellite</span> in college- <span class="highlight"><a href="https://rkas.net/cp4">you can track it here</a></span>.<br>
+        For more details, you can read <span class="highlight"><a href="https://rawgit.com/farktronix/Resume/master/resume.pdf">my resume</a></span>.<br>
+        </div>
+</div>
+<div id="top_left_angle">&nbsp;</div>
+<div id="top_bar">&nbsp;</div>
+<div id="left_bar">&nbsp;</div>
+<div id="barcode_outer" onClick="setupBarCode()">
+    <div id="outer" class="bardigit_long">
+        <div class="outerbit_on" id="const_bit1">&nbsp;</div>
+        <div class="outerbit_off" id="const_bit7">&nbsp;</div>
+        <div class="outerbit_on" id="const_bit2">&nbsp;</div>
+    </div>
+    <div id="textc1">
+        <div class="bartext" id="text2">w</div>
+        <div class="bartext" id="text3">h</div>
+        <div class="bartext" id="text4">a</div>
+        <div class="bartext" id="text5">t</div>
+        <div class="bartext" id="text6">t</div>
+        <div class="bartext" id="text7">h</div>
+    </div>
+    <div id="textc2">
+        <div class="bartext" id="text8">e</div>
+        <div class="bartext" id="text9">f</div>
+        <div class="bartext" id="text10">a</div>
+        <div class="bartext" id="text11">r</div>
+        <div class="bartext" id="text12">k</div>
+        <div class="bartext" id="text13">?</div>
+    </div>
+    <div id="bardigit_1" class="bardigit_long" onmouseover="newCode(this,1)">
+        <div id="d1_b1" class="bit">&nbsp;</div>
+        <div id="d1_b2" class="bit">&nbsp;</div>
+        <div id="d1_b3" class="bit">&nbsp;</div>
+        <div id="d1_b4" class="bit">&nbsp;</div>
+        <div id="d1_b5" class="bit">&nbsp;</div>
+        <div id="d1_b6" class="bit">&nbsp;</div>
+        <div id="d1_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_2" class="bardigit" onmouseover="newCode(this,2)">
+        <div id="d2_b1" class="bit">&nbsp;</div>
+        <div id="d2_b2" class="bit">&nbsp;</div>
+        <div id="d2_b3" class="bit">&nbsp;</div>
+        <div id="d2_b4" class="bit">&nbsp;</div>
+        <div id="d2_b5" class="bit">&nbsp;</div>
+        <div id="d2_b6" class="bit">&nbsp;</div>
+        <div id="d2_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_3" class="bardigit" onmouseover="newCode(this,3)">
+        <div id="d3_b1" class="bit">&nbsp;</div>
+        <div id="d3_b2" class="bit">&nbsp;</div>
+        <div id="d3_b3" class="bit">&nbsp;</div>
+        <div id="d3_b4" class="bit">&nbsp;</div>
+        <div id="d3_b5" class="bit">&nbsp;</div>
+        <div id="d3_b6" class="bit">&nbsp;</div>
+        <div id="d3_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_4" class="bardigit" onmouseover="newCode(this,4)">
+        <div id="d4_b1" class="bit">&nbsp;</div>
+        <div id="d4_b2" class="bit">&nbsp;</div>
+        <div id="d4_b3" class="bit">&nbsp;</div>
+        <div id="d4_b4" class="bit">&nbsp;</div>
+        <div id="d4_b5" class="bit">&nbsp;</div>
+        <div id="d4_b6" class="bit">&nbsp;</div>
+        <div id="d4_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_5" class="bardigit" onmouseover="newCode(this,5)">
+        <div id="d5_b1" class="bit">&nbsp;</div>
+        <div id="d5_b2" class="bit">&nbsp;</div>
+        <div id="d5_b3" class="bit">&nbsp;</div>
+        <div id="d5_b4" class="bit">&nbsp;</div>
+        <div id="d5_b5" class="bit">&nbsp;</div>
+        <div id="d5_b6" class="bit">&nbsp;</div>
+        <div id="d5_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_6" class="bardigit" onmouseover="newCode(this,6)">
+        <div id="d6_b1" class="bit">&nbsp;</div>
+        <div id="d6_b2" class="bit">&nbsp;</div>
+        <div id="d6_b3" class="bit">&nbsp;</div>
+        <div id="d6_b4" class="bit">&nbsp;</div>
+        <div id="d6_b5" class="bit">&nbsp;</div>
+        <div id="d6_b6" class="bit">&nbsp;</div>
+        <div id="d6_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_7" class="bardigit" onmouseover="newCode(this,7)">
+        <div id="d7_b1" class="bit">&nbsp;</div>
+        <div id="d7_b2" class="bit">&nbsp;</div>
+        <div id="d7_b3" class="bit">&nbsp;</div>
+        <div id="d7_b4" class="bit">&nbsp;</div>
+        <div id="d7_b5" class="bit">&nbsp;</div>
+        <div id="d7_b6" class="bit">&nbsp;</div>
+        <div id="d7_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="inner" class="bardigit_long">
+        <div class="outerbit_off" id="const_bit8">&nbsp;</div>
+        <div class="outerbit_on" id="const_bit3">&nbsp;</div>
+        <div class="outerbit_off" id="const_bit9">&nbsp;</div>
+        <div class="outerbit_on" id="const_bit4">&nbsp;</div>
+        <div class="outerbit_off" id=const_bit10">&nbsp;</div>
+    </div>
+    <div id="bardigit_8" class="bardigit" onmouseover="newCode(this,8)">
+        <div id="d8_b1" class="bit">&nbsp;</div>
+        <div id="d8_b2" class="bit">&nbsp;</div>
+        <div id="d8_b3" class="bit">&nbsp;</div>
+        <div id="d8_b4" class="bit">&nbsp;</div>
+        <div id="d8_b5" class="bit">&nbsp;</div>
+        <div id="d8_b6" class="bit">&nbsp;</div>
+        <div id="d8_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_9" class="bardigit" onmouseover="newCode(this,9)">
+        <div id="d9_b1" class="bit">&nbsp;</div>
+        <div id="d9_b2" class="bit">&nbsp;</div>
+        <div id="d9_b3" class="bit">&nbsp;</div>
+        <div id="d9_b4" class="bit">&nbsp;</div>
+        <div id="d9_b5" class="bit">&nbsp;</div>
+        <div id="d9_b6" class="bit">&nbsp;</div>
+        <div id="d9_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_10" class="bardigit" onmouseover="newCode(this,10)">
+        <div id="d10_b1" class="bit">&nbsp;</div>
+        <div id="d10_b2" class="bit">&nbsp;</div>
+        <div id="d10_b3" class="bit">&nbsp;</div>
+        <div id="d10_b4" class="bit">&nbsp;</div>
+        <div id="d10_b5" class="bit">&nbsp;</div>
+        <div id="d10_b6" class="bit">&nbsp;</div>
+        <div id="d10_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_11" class="bardigit" onmouseover="newCode(this,11)">
+        <div id="d11_b1" class="bit">&nbsp;</div>
+        <div id="d11_b2" class="bit">&nbsp;</div>
+        <div id="d11_b3" class="bit">&nbsp;</div>
+        <div id="d11_b4" class="bit">&nbsp;</div>
+        <div id="d11_b5" class="bit">&nbsp;</div>
+        <div id="d11_b6" class="bit">&nbsp;</div>
+        <div id="d11_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_12" class="bardigit" onmouseover="newCode(this,12)">
+        <div id="d12_b1" class="bit">&nbsp;</div>
+        <div id="d12_b2" class="bit">&nbsp;</div>
+        <div id="d12_b3" class="bit">&nbsp;</div>
+        <div id="d12_b4" class="bit">&nbsp;</div>
+        <div id="d12_b5" class="bit">&nbsp;</div>
+        <div id="d12_b6" class="bit">&nbsp;</div>
+        <div id="d12_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_13" class="bardigit" onmouseover="newCode(this,13)">
+        <div id="d13_b1" class="bit">&nbsp;</div>
+        <div id="d13_b2" class="bit">&nbsp;</div>
+        <div id="d13_b3" class="bit">&nbsp;</div>
+        <div id="d13_b4" class="bit">&nbsp;</div>
+        <div id="d13_b5" class="bit">&nbsp;</div>
+        <div id="d13_b6" class="bit">&nbsp;</div>
+        <div id="d13_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="bardigit_14" class="bardigit_long" onmouseover="newCode(this,14)">
+        <div id="d14_b1" class="bit">&nbsp;</div>
+        <div id="d14_b2" class="bit">&nbsp;</div>
+        <div id="d14_b3" class="bit">&nbsp;</div>
+        <div id="d14_b4" class="bit">&nbsp;</div>
+        <div id="d14_b5" class="bit">&nbsp;</div>
+        <div id="d14_b6" class="bit">&nbsp;</div>
+        <div id="d14_b7" class="bit">&nbsp;</div>
+    </div>
+    <div id="outer" class="bardigit_long">
+        <div class="outerbit_on" id="const_bit5">&nbsp;</div>
+        <div class="outerbit_off" id="const_bit11">&nbsp;</div>
+        <div class="outerbit_on" id="const_bit6">&nbsp;</div>
+    </div>
+    <div>&nbsp;</div>
+</div>
+</body>
+</html>
