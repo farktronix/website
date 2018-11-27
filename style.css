@@ -203,3 +203,9 @@ a.highlight {
     width: 200px;
     height: 100%;
 }
+
+.socialmedia {
+    width: 25px;
+    height: 25px;
+    padding: 25px 4px 0px 4px;
+}
