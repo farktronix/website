@@ -1,0 +1,138 @@
+==================================================================
+https://keybase.io/farktronix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rkas.net
+  * I am farktronix (https://keybase.io/farktronix) on keybase.
+  * I have a public key with fingerprint 7C47 1696 354A 0D45 F97C  97E8 ACE2 F3A0 B9BD 49AC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7c471696354a0d45f97c97e8ace2f3a0b9bd49ac",
+            "host": "keybase.io",
+            "key_id": "ace2f3a0b9bd49ac",
+            "uid": "a2280b9b504eb65bf216245b94489c00",
+            "username": "farktronix"
+        },
+        "service": {
+            "hostname": "rkas.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397249968,
+    "expire_in": 157680000,
+    "prev": "dbc5fb09ca6c1d71db9bb1ef841a71eaff643a38add5a9b7bdfc96620050d898",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owFtkWtIFFEYhnc3dVFLLYOyBHUoCNxsZvfMbUMUyXIhcklKpGw5M3NmHayZbXa8
+odJWkEYgIUQY2FoGRSyaUS5JNzW7oF1QMMn6kRXpH8tEhJDsTNm/zp/Dec/zvt/3
+8Z1fs8pis0am5jvuPfBErMOPvwuWkqLSaD0haFId4a4nKtGfS1ZUP9IDuqIahJtg
+RcBSDM+4aABJCdAyz4o8izgoIqfsgqTACxLgoUg4iAotaDpwjACDKEfRsIYfPkXC
+6n/4qr8fTidnqjQJkMDQguykGCegBR4AjhdJ0gSDSFfhMYRpGeqVhq6pSi3R6CCw
+Xq2IyOzaLL7C6JUwmKMiAzsDumZoonYUqxWGEXCbJqMuYFI1SPCt+H2Cokp4amyo
+RnpQ0VTCTWFSNBQzkHLxrBPwPMM5CFQbUHTkU0yCZhmOxMcsg6pxpCSItCyQvAgZ
+kZJYSsJjCRSSOUBBlkJQlhnggi4OShINeYEVJFnkGcZJkjQpcTxHmBMdVzXCDXCb
+0I8jg4pfhUaVjojGhLPW9BiL1WaJi7WZi7MkxKf8W+fELfuyp3+6Y79jsW9TwY9L
+Jzyvm5NerH6al5Wf2lO2p+E67DPotI+RvKTgeHkxuvA5ZSF+9nBy1kxK9rXcofri
+hkx/2YEqUN6R3h3e6y2+klc+Obw+ULPZP1LYUric2nokNNixkHiuD3wC/WO2uexQ
+duahpc6+gemxkonWXi9Z+WyjK/H+q7WDP7ndae9ezoaz4LVTbWdcu4SeO/yTWPvo
+5KM3ydaibaEtN95+SYp6x2N6Z21dBVLbvnXvbRm5Bz8sXu3fEW3qHGnxZIwyNwem
+ojMZpb8uloBOu730bln79q6hr7aHze2h+dNNOyMb8i/nh2uWtp58Pne7O+5buDdq
+T2v2/gY=
+=Vbwz
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/farktronix
+
+==================================================================
+==================================================================
+https://keybase.io/farktronix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rkas.net
+  * I am farktronix (https://keybase.io/farktronix) on keybase.
+  * I have a public key with fingerprint 7C47 1696 354A 0D45 F97C  97E8 ACE2 F3A0 B9BD 49AC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010137e639014d738b84935ac5bc8880376d3995b24cda5089d33e320ef819849a000a",
+            "fingerprint": "7c471696354a0d45f97c97e8ace2f3a0b9bd49ac",
+            "host": "keybase.io",
+            "key_id": "ace2f3a0b9bd49ac",
+            "kid": "010137e639014d738b84935ac5bc8880376d3995b24cda5089d33e320ef819849a000a",
+            "uid": "a2280b9b504eb65bf216245b94489c00",
+            "username": "farktronix"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8ffc82cc2c8a61a8d4107e0794353ea389f7d05de7b44a9c42bf69a9d3850f100f"
+            ]
+        },
+        "service": {
+            "hostname": "rkas.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1464059579,
+    "expire_in": 157680000,
+    "prev": "777ece95bf88f21d8d892fa885343921e2b45465eea1e9e9c76201acedea98f6",
+    "seqno": 42,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2
+
+owGtUm1oVlUcf56lNccsh8Y0Euy4EGSMc+85555znsSg9UEJQ0f0MpHHc87932fX
+x+59vPduqWsohjNlxKLIAlsFrfZhUCCCsiYU4pc5IofWh97UjOqL6TC3jNa50771
+sU+Hc/i9nd//P7j4nkJ9cfTy9PunxjeOFid+1YXn2s9+0Yt07O9BpV5UhfkDdvqQ
+ZuVq6KMSwg52CAePSOxQnxOhBZWEKcO0EUJgwj2fSMm0S42vGBbSJwSIiyEQjrRY
+hTFWqBUFYVSBpJaEUWZluaHc8aRHGFXYpyyQ3EgOQhlwA6Kwltq3XGOJXXGaM2w4
+rVJoC2P7Zi/l+Xj/gf+fc3ff8XFdkZswTEF7TAeu47mUaUmpkAbjHJhCEqkXwaID
+lVSzJI7C3aivFSXQE1chbzYNKzZ2ikpbkQgCI1xjXCOU5yjhUwdzwFxSwggoImTA
+fcx84JpSJQ11deBJZVMKhgMH4wBts9rWsyc08+J5T3f9k6pK2yLIbKpaEmexiXfa
+164sq6WlPFG2p5bDjr8EunxXoazDyLcjspQeSNIwjlDJsVCThbmkQz2KmWRctiLY
+XQsTKIc5gnFP2KJwbgQ9+WA5BwO210AIW5IvfCHdQAnBCCXSdcDVlFGPASgHJEjD
+PRc7dow+KCkCD+V/2hXFqERdG1RVrKatLVJZdwKor+Fw8eEFhWJ94d6FdfnyFhoW
+Lfl3o4ea7puD37+ZvfbthfLeltcHozPrT7/WKKavLR48gztW9+MtV78f7lz76XSx
+yJ5f/tPt5lMr/v48GtuuPhxZ/9iB9OvSJ1/NdP1w5eT4O482X35802djjS3F+GU4
+NDZQu9pFr1QeWFt713nzPTM5vnV2ycwfJ+Y2H952Gg+P1L2yaOWumwerz5SnntqI
+6/5aevRY04amkeqOj5/87TptK0121J9/Cz/bsqwy17i599bA0zf+/GhV//Ws3Fk7
+2hx0PHL+lxdWHXzw1rqhi0fIip/N/mVjk+3fTQ1sunns+NKH2t8YXjizEu5nnV9O
+Z5d+vDF16Ann1YmhvhmuJ872n0uau/fBie7Jk2+vOdDwwZrZfwA=
+=B4c7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/farktronix
+
+==================================================================
+
